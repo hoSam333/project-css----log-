@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="fontawesome-free-7.0.0-web/css/all.min.css">
+    <title>Log-team</title>
+</head>
+<body>
+
+
+    <!-- start header -->
+     <header>
+        <input type="checkbox" id="menuHandler">
+        <nav>
+            <img src="./images/logo.png" alt="">
+            <ul>
+                <li>
+                    <a href="#" class="active"> Home </a>
+                    <div class="dropDown">
+                        <div>
+                            <span></span>
+                            <a href="#"> Home One </a>
+                        </div>
+                        <div>
+                            <span></span>
+                            <a href="#"> Home Two </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"> Movie </a>
+                    <div class="dropDown">
+                        <div>
+                            <span></span>
+                            <a href="#"> Movie </a>
+                        </div>
+                        <div>
+                            <span></span>
+                            <a href="#"> Movie Details </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"> Tv Show </a>
+                </li>
+                <li>
+                    <a href="#"> pricing </a>
+                </li>
+                <li>
+                    <a href="#"> Blog </a>
+                <div class="dropDown">
+                        <div>
+                            <span></span>
+                            <a href="#"> Our Blog </a>
+                        </div>
+                        <div>
+                            <span></span>
+                            <a href="#"> Blog Details </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"> Contact </a>
+                </li>
+            </ul>
+            <div class="data">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <select>
+                        <option>en</option>
+                        <option>ar</option>
+                        <option>au</option>
+                        <option>tu</option>
+                    </select>
+                </div>
+                <button class="btn"> sign in </button>
+            </div>
+
+            <label for="menuHandler" class="menu-icone">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+        </nav>
+
+        <div class="mobile-menu">
+            <div class="logo">
+                <img src="./images/logo.png" alt="">
+                <label for="menuHandler">
+                    <i class="fa-solid fa-close"></i>
+                </label>
+            </div>
+            <div class="list">
+                <div>
+                    <input type="checkbox" id="dropDownMobile-1">
+                    <a href="#">
+                        <span> Home </span>
+                        <label for="dropDownMobile-1">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </label>
+                    </a>
+                    <div>
+                        <a href="#"> Home One </a>
+                        <a href="#"> Home Two </a>
+                    </div>
+                </div>
+                <div>
+                    <input type="checkbox" id="dropDownMobile-2">
+                    <a href="#">
+                        <span> Movie </span>
+                        <label for="dropDownMobile-2">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </label>
+                    </a>
+                     <div>
+                        <a href="#"> Movie  </a>
+                        <a href="#"> Movie Details </a>
+                    </div>
+                </div>
+                <div>
+                    <a href="#">
+                        <span> Tv Show </span>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <span> Pricing </span>
+                    </a>
+                </div>
+                <div>
+                    <input type="checkbox" id="dropDownMobile-3">
+                    <a href="#">
+                        <span> Blog </span>
+                        <label for="dropDownMobile-3">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </label>
+                    </a>
+                    <div>
+                        <a href="#"> Our Blog </a>
+                        <a href="#"> Blog Details </a>
+                    </div>
+                </div>
+                <div>
+                    <a href="#">
+                        <span> Contacts </span>
+                    </a>
+                </div>
+            </div>
+            <div class="social">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <div class="shadow-box"></div>
+
+
+        <div class="heading">
+            <div class="heading-data">
+                <span>Movflx</span>
+                <h1>Unlimited <span>Movie</span>, TVs  Shows, & More.</h1>
+                <div>
+                    <div>
+                        <button> pg 18 </button>
+                        <button> hd </button>
+                    </div>
+                    <div>
+                        <a href="#">Romance  ,</a>
+                        <a href="#">Drama </a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-clock"></i>
+                        <span>128 min</span>
+                    </div>
+                </div>
+                <button class="btn">
+                    <i class="fa-solid fa-play"></i>watch now
+                </button>
+            </div>
+        </div>
+     </header>
+    <!-- end header -->
+
+
+
+    <!-- start sec-movies -->
+     <section class="movies">
+
+        <input type="radio" checked  name="subject" id="subject_1">
+        <input type="radio" name="subject" id="subject_2">
+        <input type="radio" name="subject" id="subject_3">
+
+        <div class="sec-heading">
+            <div class="sec-title">
+                <span>ONLINE STREAMING</span>
+                <b>Upcoming Movies</b>
+            </div>
+            <div class="btns">
+                <label for="subject_1" class="btn"> Tv Show </label>
+                <label for="subject_2" class="btn"> Movies </label>
+                <label for="subject_3" class="btn"> Anime </label>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="subject" id="sub-1">
+                <div class="card">
+                    <img src="./images/ucm_poster03.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster04.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster05.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster06.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subject" id="sub-2">
+                <div class="card">
+                    <img src="./images/ucm_poster07.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster08.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster02.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster09.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subject" id="sub-3">
+                <div class="card">
+                    <img src="./images/ucm_poster04.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster06.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster10.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster03.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- end sec-movies -->
+
+
+    <!-- start sec-servcies -->
+     <section class="servcies">
+        <div class="container">
+            <div class="left">
+                <img src="./images/services_img.jpg" alt="">
+                <div>download <img src="./images/download.svg" alt=""></div>
+            </div>
+            <div class="right">
+                <div class="sec-title second">
+                    <span>ONLINE STREAMING</span>
+                    <b> Download Your Shows <br> Watch Offline. </b>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod tempor.There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration in some injected humour.</p>
+                <div class="details">
+                    <div>
+                        <i class="fa-solid fa-tv"></i>
+                        <div>
+                            <b>Enjoy on Your TV.</b>
+                            <p>lorem ipsum dolor sit amet, consecetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-video"></i>
+                        <div>
+                            <b>Watch Everywhere.</b>
+                            <p>lorem ipsum dolor sit amet, consecetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- end sec-servcies -->
+
+
+    <!-- start sec-rated  -->
+     <section class="rated">
+        <div class="sec-title">
+            <span>ONLINE STREAMING</span>
+            <b>Top Rated Movie</b>
+        </div>
+        <input type="radio" checked name="effect-2" id="con-1" >
+        <input type="radio" name="effect-2" id="con-2" >
+        <input type="radio" name="effect-2" id="con-3" >
+        <input type="radio" name="effect-2" id="con-4" >
+        <div class="btns">
+            <label for="con-1"> tv shows </label>
+            <label for="con-2"> movies </label>
+            <label for="con-3"> doumnetary </label>
+            <label for="con-4"> sports </label>
+        </div>
+        <div class="container">
+
+            <div class="subject-2" id="sub-1">
+                <div class="card">
+                    <img src="./images/ucm_poster07.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster08.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster03.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster04.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster05.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster06.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster02.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster09.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subject-2" id="sub-2">
+                <div class="card">
+                    <img src="./images/ucm_poster03.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster04.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster05.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster06.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subject-2" id="sub-3">
+                <div class="card">
+                    <img src="./images/ucm_poster07.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster08.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster02.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster09.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subject-2" id="sub-4">
+                <div class="card">
+                    <img src="./images/ucm_poster04.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster06.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster10.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster03.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- end sec-rated  -->
+
+
+    <!-- start sec-Live  -->
+     <section class="live">
+        <div class="container">
+            <div class="left">
+                <div class="sec-title second">
+                    <span>ONLINE STREAMING</span>
+                    <b> Live Movie & TV Shows For Friends & Family </b>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.</p>
+                <div class="shadows">
+                    <span>HD 4K</span>
+                    <div>
+                        <b> 20k+ </b>
+                        <p>Active Customer</p>
+                    </div>
+                </div>
+                <button class="btn">
+                    <i class="fa-solid fa-play"></i>watch now
+                </button>
+            </div>
+            <div class="right">
+                <img src="./images/live_img.png" alt="">
+            </div>
+        </div>
+     </section>
+    <!-- end sec-Live  -->
+
+
+    <!-- start sec-Series -->
+     <section class="series">
+         <div class="sec-title">
+            <span>ONLINE STREAMING</span>
+            <b>Upcoming Movies</b>
+        </div>
+        <div class="container">
+                <div class="card">
+                    <img src="./images/ucm_poster03.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster04.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster05.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ucm_poster06.jpg" alt="">
+                    <div>
+                        <b> Card Title </b>
+                        <span>2025</span>
+                    </div>
+                    <div>
+                        <button>4k</button>
+                        <div>
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 128 min </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span> 3.5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+     </section>
+    <!-- end sec-Series -->
+ 
+</body>
+</html>
